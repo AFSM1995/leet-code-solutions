@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		380608EB24F0A9F200061E4F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380608EA24F0A9F200061E4F /* main.swift */; };
+		3806092424F0B0B000061E4F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3806092324F0B0B000061E4F /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		380608E524F0A9F200061E4F /* CopyFiles */ = {
+		3806091E24F0B0B000061E4F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		380608E724F0A9F200061E4F /* whiteboard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = whiteboard; sourceTree = BUILT_PRODUCTS_DIR; };
-		380608EA24F0A9F200061E4F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3806092024F0B0B000061E4F /* Whiteboard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Whiteboard; sourceTree = BUILT_PRODUCTS_DIR; };
+		3806092324F0B0B000061E4F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		380608E424F0A9F200061E4F /* Frameworks */ = {
+		3806091D24F0B0B000061E4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,66 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		380608DE24F0A9F200061E4F = {
+		3806091724F0B0B000061E4F = {
 			isa = PBXGroup;
 			children = (
-				380608E924F0A9F200061E4F /* whiteboard */,
-				380608E824F0A9F200061E4F /* Products */,
+				3806092224F0B0B000061E4F /* Whiteboard */,
+				3806092124F0B0B000061E4F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		380608E824F0A9F200061E4F /* Products */ = {
+		3806092124F0B0B000061E4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				380608E724F0A9F200061E4F /* whiteboard */,
+				3806092024F0B0B000061E4F /* Whiteboard */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		380608E924F0A9F200061E4F /* whiteboard */ = {
+		3806092224F0B0B000061E4F /* Whiteboard */ = {
 			isa = PBXGroup;
 			children = (
-				380608EA24F0A9F200061E4F /* main.swift */,
+				3806092324F0B0B000061E4F /* main.swift */,
 			);
-			path = whiteboard;
+			path = Whiteboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		380608E624F0A9F200061E4F /* whiteboard */ = {
+		3806091F24F0B0B000061E4F /* Whiteboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 380608EE24F0A9F200061E4F /* Build configuration list for PBXNativeTarget "whiteboard" */;
+			buildConfigurationList = 3806092724F0B0B000061E4F /* Build configuration list for PBXNativeTarget "Whiteboard" */;
 			buildPhases = (
-				380608E324F0A9F200061E4F /* Sources */,
-				380608E424F0A9F200061E4F /* Frameworks */,
-				380608E524F0A9F200061E4F /* CopyFiles */,
+				3806091C24F0B0B000061E4F /* Sources */,
+				3806091D24F0B0B000061E4F /* Frameworks */,
+				3806091E24F0B0B000061E4F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = whiteboard;
-			productName = whiteboard;
-			productReference = 380608E724F0A9F200061E4F /* whiteboard */;
+			name = Whiteboard;
+			productName = Whiteboard;
+			productReference = 3806092024F0B0B000061E4F /* Whiteboard */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		380608DF24F0A9F200061E4F /* Project object */ = {
+		3806091824F0B0B000061E4F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Álvaro Santillan";
 				TargetAttributes = {
-					380608E624F0A9F200061E4F = {
+					3806091F24F0B0B000061E4F = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = 380608E224F0A9F200061E4F /* Build configuration list for PBXProject "whiteboard" */;
+			buildConfigurationList = 3806091B24F0B0B000061E4F /* Build configuration list for PBXProject "Whiteboard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 380608DE24F0A9F200061E4F;
-			productRefGroup = 380608E824F0A9F200061E4F /* Products */;
+			mainGroup = 3806091724F0B0B000061E4F;
+			productRefGroup = 3806092124F0B0B000061E4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				380608E624F0A9F200061E4F /* whiteboard */,
+				3806091F24F0B0B000061E4F /* Whiteboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		380608E324F0A9F200061E4F /* Sources */ = {
+		3806091C24F0B0B000061E4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				380608EB24F0A9F200061E4F /* main.swift in Sources */,
+				3806092424F0B0B000061E4F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		380608EC24F0A9F200061E4F /* Debug */ = {
+		3806092524F0B0B000061E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		380608ED24F0A9F200061E4F /* Release */ = {
+		3806092624F0B0B000061E4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +240,7 @@
 			};
 			name = Release;
 		};
-		380608EF24F0A9F200061E4F /* Debug */ = {
+		3806092824F0B0B000061E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		380608F024F0A9F200061E4F /* Release */ = {
+		3806092924F0B0B000061E4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		380608E224F0A9F200061E4F /* Build configuration list for PBXProject "whiteboard" */ = {
+		3806091B24F0B0B000061E4F /* Build configuration list for PBXProject "Whiteboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				380608EC24F0A9F200061E4F /* Debug */,
-				380608ED24F0A9F200061E4F /* Release */,
+				3806092524F0B0B000061E4F /* Debug */,
+				3806092624F0B0B000061E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		380608EE24F0A9F200061E4F /* Build configuration list for PBXNativeTarget "whiteboard" */ = {
+		3806092724F0B0B000061E4F /* Build configuration list for PBXNativeTarget "Whiteboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				380608EF24F0A9F200061E4F /* Debug */,
-				380608F024F0A9F200061E4F /* Release */,
+				3806092824F0B0B000061E4F /* Debug */,
+				3806092924F0B0B000061E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 380608DF24F0A9F200061E4F /* Project object */;
+	rootObject = 3806091824F0B0B000061E4F /* Project object */;
 }
